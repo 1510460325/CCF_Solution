@@ -2,7 +2,7 @@ package cn.wzy.RoleSearch;
 
 import java.util.*;
 
-public class Main {
+public class Main { //权限查询 90
     static Map<String,List<String>> roles = new HashMap<>();
     public static void checkRole(String roleName) {
         int index = roleName.indexOf(':');

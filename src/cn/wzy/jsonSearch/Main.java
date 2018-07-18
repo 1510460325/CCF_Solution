@@ -7,7 +7,7 @@ import java.util.*;
  * on 2018/7/17 14:10
  * 不短不长八字刚好
  */
-public class Main {//40
+public class Main {//json查询 40
     static List<String> strs;
     static Map<String, String> map;
     static void handler(){

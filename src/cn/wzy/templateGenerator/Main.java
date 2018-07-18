@@ -7,7 +7,7 @@ import java.util.*;
  * on 2018/7/17 22:35
  * 不短不长八字刚好
  */
-public class Main {//90分
+public class Main {//模板生成 90分
     static List<String> template;
     static Map<String, String> names;
 

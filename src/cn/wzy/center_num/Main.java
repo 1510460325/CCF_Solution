@@ -7,7 +7,7 @@ import java.util.Scanner;
  * on 2018/7/16 22:56
  * 不短不长八字刚好
  */
-public class Main {
+public class Main {//中央数 100
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n  = scanner.nextInt();

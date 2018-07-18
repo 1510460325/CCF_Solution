@@ -7,7 +7,7 @@ package cn.wzy.highway;
  * on 2018/7/17 22:06
  * 不短不长八字刚好
  */
-public class Main {//60
+public class Main {//高速公路 60
 
     static Map<Integer,List<Integer>> map = new HashMap<>();//邻接表
     static boolean[] visit;

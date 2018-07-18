@@ -7,7 +7,7 @@ import java.util.*;
  * 不短不长八字刚好
  */
 
-public class Main {
+public class Main { //URL查询 80
     static class Handler{
         public String url;
         public String content;

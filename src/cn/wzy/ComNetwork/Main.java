@@ -7,7 +7,7 @@ import java.util.*;
  * on 2018/7/12 16:39
  * 不短不长八字刚好
  */
-public class Main {
+public class Main {//通信网络 100
     static boolean[][] conn;
     static Map<Integer,List<Integer>> map;
     static int size;
