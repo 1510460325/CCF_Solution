@@ -55,7 +55,7 @@ public class Main {//画图 90分
             for (int i = start.y; i <= end.y; i++) {
                 if (map[start.x][i] == '-')
                     map[start.x][i] = '+';
-                else
+                else if (map[start.x][i] != '+')
                     map[start.x][i] = '|';
             }
         }
@@ -63,7 +63,7 @@ public class Main {//画图 90分
             for (int i = start.x; i <= end.x; i++) {
                 if (map[i][start.y] == '|')
                     map[i][start.y] = '+';
-                else
+                else if (map[i][start.y] != '+')
                     map[i][start.y] = '-';
             }
         }
