@@ -71,13 +71,30 @@ public class Main {//送货 30分 超时
         int n = scanner.nextInt();
         int m = scanner.nextInt();
         init(n);
+        int[] times = new int[n + 1];
         for (int i = 0; i < m; i++) {
             int a = scanner.nextInt();
             int b = scanner.nextInt();
             map[a].add(b);
             map[b].add(a);
+            times[a] ++ ;
+            times[b] ++;
         }
         scanner.close();
+        int num = 0;
+        for (int i = 1; i <= n; i++) {
+            if (times[i] % 2 == 1) {
+                num++;
+            }
+            if (times[i] == 0) {
+                System.out.println(-1);
+                return;
+            }
+        }
+        if (num != 2 && num != 0) {
+            System.out.println(-1);
+            return;
+        }
         dfs(1,m);
         if (ans.size() == 0) {
             System.out.println(-1);
